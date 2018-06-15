@@ -1,0 +1,3 @@
+D:\Projects\angularJS\Pilot\obj\Debug\Pilot.njsproj.CoreCompileInputs.cache
+D:\Projects\angularJS\Pilot\bin\Microsoft.NodejsTools.WebRole.dll
+D:\Projects\angularJS\Pilot\obj\Debug\Pilot.njsprojAssemblyReference.cache
