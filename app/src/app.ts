@@ -12,9 +12,7 @@
 
 
 // Components statments.
-app.component("home", {
-    templateUrl: "app/src/app.html"
-});
+
 
 app.component("basic", {
     template: `<h3>basic data, similiar to home (maybe ridandent)</h3>`

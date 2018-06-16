@@ -1,7 +1,7 @@
 ﻿<div>
     <md-toolbar>
-        Bet_Magen
-        <login style="max-height: 30px; max-width: 200px;"></login>
+        <label>Bet_Magen</label>
+        <login ng-if="vm.AuthService.getUser() == null"></login>
     </md-toolbar>
     
     <md-nav-bar md-no-ink-bar="disableInkBar"

@@ -1,5 +1,9 @@
-<md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding style="float:right">
-    <div>
+<md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding style="
+    display: inline-block;
+    height: 89px;
+    overflow: hidden;
+    float: right;">
+    
         <md-input-container>
             <label>userName</label>
             <input type="text" ng-model="vm.userName">
@@ -9,6 +13,6 @@
             <input ng-model="vm.password" type="password">
         </md-input-container>
         <md-button class="md-raised md-primary" ng-click="vm.submit()">Logn in</md-button>
-    </div>
+    
 </md-content>
 

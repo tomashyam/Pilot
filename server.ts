@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
 app.use(bodyParser.json());                                     // parse application/json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
-const path = require('path');
+const path = require('path'); 
 app.use(express.static(__dirname))
 
 
